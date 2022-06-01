@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Tracking Task" max_length="40" name="x_788509_track_ret_tracking_task" type="collection">
+        <element label="Employee Vaccination Certificate" max_length="40" name="u_file_attachment_3" type="file_attachment"/>
+        <element label="Employee Medical Certificate" max_length="40" name="u_file_attachment_4" type="file_attachment"/>
+        <element attributes="encode_utf8=false" label="Return to Office" max_length="32" name="u_reference_1" read_only="true" reference="x_788509_track_ret_return_to_office" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Work to Do" max_length="200" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee Other Medical Details" max_length="400" name="u_string_5" type="string"/>
+    </element>
+</database>

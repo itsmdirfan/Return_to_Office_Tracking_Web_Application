@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_report">
+    <sysauto_report action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <address_list/>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <group_list name="Management">b9bf5a752f7f011046e755f62799b6f0</group_list>
+        <include_detail>false</include_detail>
+        <include_with/>
+        <name>Scheduled execution of Status of Employees Returning to Office</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <omit_if_no_records>false</omit_if_no_records>
+        <output_type>PDF-landscape</output_type>
+        <page_height_in_pixels>612</page_height_in_pixels>
+        <page_size>Letter</page_size>
+        <page_width_in_pixels>792</page_width_in_pixels>
+        <report display_value="Status of Employees Returning to Office">d2994f752fff011046e755f62799b68a</report>
+        <report_body><![CDATA[<div>Hi this is <strong>system admin</strong> from <strong>Hi Five consulting</strong>,</div>
+<div>&nbsp;</div>
+<div>This mail is regarding <strong>monthly report</strong> about the stages of how many employees are at which stage from the survey filled by the <strong>employees to return back to office</strong>. So kindly check the report which is attached in this mail</div>]]></report_body>
+        <report_title>Employees monthly report </report_title>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-06-01 06:49:01</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>monthly</run_type>
+        <sys_class_name>sysauto_report</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-01 06:50:42</sys_created_on>
+        <sys_id>47a947b52fff011046e755f62799b6e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Scheduled execution of Status of Employees Returning to Office</sys_name>
+        <sys_package display_value="Track Return" source="x_788509_track_ret">0b435ab92f3f011046e755f62799b694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Track Return">0b435ab92f3f011046e755f62799b694</sys_scope>
+        <sys_update_name>sysauto_report_47a947b52fff011046e755f62799b6e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-01 06:52:00</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <user_list/>
+        <zip>false</zip>
+    </sysauto_report>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <name>opened_by.avatar-FieldValue</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-01 02:56:34</sys_created_on>
+        <sys_id>0e745ef92f3f011046e755f62799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>opened_by.avatar-FieldValue</sys_name>
+        <sys_package display_value="Track Return" source="x_788509_track_ret">0b435ab92f3f011046e755f62799b694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Track Return">0b435ab92f3f011046e755f62799b694</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_0e745ef92f3f011046e755f62799b6e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-01 02:56:34</sys_updated_on>
+        <view_config display_value="Tracking Task List Screen View Config">8a745ef92f3f011046e755f62799b6cd</view_config>
+        <view_template_slot display_value="image_01">caf849b041275010f877183fc9b8be4e</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

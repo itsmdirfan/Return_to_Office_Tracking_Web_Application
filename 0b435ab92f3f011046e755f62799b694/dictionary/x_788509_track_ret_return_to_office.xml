@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Return to Office" max_length="40" name="x_788509_track_ret_return_to_office" type="collection">
+        <element label="Interested to Return to Office" max_length="40" name="interested_to_return_to_office" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Any Resource Needed" max_length="40" name="u_boolean_6" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not interested" label="Stages" max_length="40" name="u_choice_2" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Interested" sequence="0" value="not interested"/>
+                <element inactive_on_update="false" label="Wait for Approval" sequence="1" value="wait for approval"/>
+                <element inactive_on_update="false" label="Return Date Generation" sequence="2" value="return date generation"/>
+                <element inactive_on_update="false" label="Returned to Office" sequence="3" value="returned to office"/>
+            </choice>
+        </element>
+        <element label="Vaccination Certificate" max_length="40" name="u_file_attachment_3" type="file_attachment"/>
+        <element label="Medical Certificate" max_length="40" name="u_file_attachment_4" type="file_attachment"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Resource Needed" max_length="1024" name="u_glide_list_7" reference="sc_cat_item" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Employee" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Medical Details(if any)" max_length="400" name="u_string_5" type="string"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

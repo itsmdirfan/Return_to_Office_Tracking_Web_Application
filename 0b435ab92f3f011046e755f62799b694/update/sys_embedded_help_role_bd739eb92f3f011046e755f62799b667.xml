@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_788509_track_ret.document_approver" name="x_788509_track_ret.document_approver">35739eb92f3f011046e755f62799b663</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-01 02:52:11</sys_created_on>
+        <sys_id>bd739eb92f3f011046e755f62799b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>35739eb92f3f011046e755f62799b663</sys_name>
+        <sys_package display_value="Track Return" source="x_788509_track_ret">0b435ab92f3f011046e755f62799b694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Track Return">0b435ab92f3f011046e755f62799b694</sys_scope>
+        <sys_update_name>sys_embedded_help_role_bd739eb92f3f011046e755f62799b667</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-01 02:52:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

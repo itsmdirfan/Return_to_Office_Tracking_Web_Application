@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_788509_track_ret_to_push_notification</collection>
+        <condition table="x_788509_track_ret_to_push_notification">u_boolean_1=true^EQ<item endquery="false" field="u_boolean_1" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div>Hi employee hope you are doing good, this email contains the survey link for you regarding your willingness on returning to office.<strong> It is mandatory to fill this survey for our convenience to manage the employees accordingly.</strong></div>
+<div>&nbsp;</div>
+<div>click the below link to take the survey</div>
+<div><a href="https://dev92227.service-now.com/sp?id=sc_cat_item&amp;sys_id=00599efd2f3f011046e755f62799b616&amp;sysparm_category=bbf85efd2f3f011046e755f62799b665">https://dev92227.service-now.com/sp?id=sc_cat_item&amp;sys_id=00599efd2f3f011046e755f62799b616&amp;sysparm_category=bbf85efd2f3f011046e755f62799b665</a></div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>
+<div>Thank you for your time&nbsp;</div>
+<div>&nbsp;</div>
+<div><strong>System Administrator</strong></div>
+<div><strong>HIFIVE CONSULTING</strong></div>
+<div>&nbsp;</div>
+<div>If you have any questions or are having difficulty accessing the survey</div>
+<div>Kindly reply the mail for support.</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Trigger Survey</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Employee">f52f92352f7f011046e755f62799b6be</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Survey invitation for returning to office willingness</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-01 06:42:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6770b352fff011046e755f62799b6a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Trigger Survey</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Track Return" source="x_788509_track_ret">0b435ab92f3f011046e755f62799b694</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Track Return">0b435ab92f3f011046e755f62799b694</sys_scope>
+        <sys_update_name>sysevent_email_action_d6770b352fff011046e755f62799b6a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-01 06:54:02</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
